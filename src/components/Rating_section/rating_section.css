@@ -1,0 +1,19 @@
+.Rating-section {
+  border: 3px solid black;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.Rating-section .Rating-section__description__profile {
+  border: 3px solid black;
+}
+.Rating-section .Rating-section__description__profile img {
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.Rating-section .Rating-section__description__profile .profile__container {
+  text-transform: capitalize;
+}
+.Rating-section .Rating-section__description__profile .profile__container p:nth-of-type(1) {
+  font-size: 25px;
+  font-weight: 500;
+}

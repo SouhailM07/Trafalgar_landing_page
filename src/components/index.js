@@ -1,0 +1,9 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Header } from "./Header/Header";
+export { default as Main__title } from "./Main__title/Main__title";
+export { default as Services } from "./Services/Services";
+export { default as LearnMore_btn } from "./LearnMore-btn/LearnMore-btn";
+export { default as Article } from "./Article/Article";
+export { default as Rating_section } from "./Rating_section/Rating_section";
+export { default as Latest_article_section } from "./Latest_article_section/Latest_article_section";
+export { default as Footer } from "./Footer/Footer";

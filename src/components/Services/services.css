@@ -1,0 +1,31 @@
+.services {
+  border: 3px solid black;
+  width: 342px;
+  height: 354px;
+  padding-left: 27px;
+  margin-bottom: 40px;
+  grid-template-rows: 1fr 23% 37%;
+}
+
+.services h1 {
+  color: #000;
+  font-size: 24px;
+  font-family: Muli;
+  font-weight: 700;
+  line-height: 56px;
+  margin: 18px 0px 8px 0px;
+}
+
+.services p {
+  text-align: left;
+  color: #7d7987;
+  font-size: 15px;
+  font-family: Muli;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.services img {
+  width: 67px;
+  align-self: flex-end;
+}

@@ -1,0 +1,25 @@
+#main__title h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main__title hr {
+  height: 4px;
+  width: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  margin: 22px 0px;
+}
+
+#main__title p {
+  max-width: 860px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 700px) {
+  #main__title p {
+    width: 80%;
+    font-size: 17px;
+  }
+}

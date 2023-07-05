@@ -1,0 +1,23 @@
+.Rating-section {
+  //   background-color: linear-gradient(#67c3f3, #5a98f2);
+  border: 3px solid black;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  .Rating-section__description__profile {
+    border: 3px solid black;
+    img {
+      border-radius: 50%;
+      border: 3px solid black;
+    }
+    .profile__container {
+      text-transform: capitalize;
+      & p:nth-of-type(1) {
+        font: {
+          size: 25px;
+          weight: 500;
+        }
+      }
+    }
+  }
+}

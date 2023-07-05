@@ -1,0 +1,37 @@
+footer {
+  background: linear-gradient(#67c3f3, #5a98f2);
+  height: 400px;
+}
+
+#footer__textLogo {
+  font-weight: 700;
+}
+
+#footer__description {
+  width: 391px;
+  height: 201px;
+}
+#footer__description p {
+  font-size: 19px;
+}
+#footer__description h1 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#footer__links {
+  color: white;
+  width: 550px;
+}
+#footer__links h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#footer__links ul {
+  font-size: 18px;
+  font-weight: 400;
+  height: 140px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
